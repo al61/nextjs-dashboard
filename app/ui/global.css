@@ -1,3 +1,6 @@
+/* 
+You can use this file to add CSS rules to all the routes in your application - such as CSS reset rules, site-wide styles for HTML elements like links, and more. 
+*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
