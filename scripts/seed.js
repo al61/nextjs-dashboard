@@ -1,3 +1,5 @@
+/* This script contains the instructions for creating and seeding the invoices, customers, user, revenue tables. */
+
 const { db } = require('@vercel/postgres');
 const {
   invoices,
