@@ -1,7 +1,5 @@
-## Next.js App Router Course
+## Acme dashboard full web application
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+<img src="./public/hero-desktop.png" alt="Acme full web application" style="max-width: 100%;"/>
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-
-Course content: https://github.com/lllariogonzalez/nextjs-dashboard
+Next.js App Router Course. For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
