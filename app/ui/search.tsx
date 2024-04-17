@@ -2,14 +2,17 @@
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
+import { useDebouncedCallback } from 'use-debounce';
 
 export default function Search({ placeholder }: { placeholder: string }) {
   const searchParams = useSearchParams();
   const pathname = usePathname(); // current path, eg "/dashboard/invoices".
   const { replace } = useRouter();
 
-  function handleSearch(term: string) {
+  const handleSearch = useDebouncedCallback((term: string) => {
+    console.log(`Searching... ${term}`);
     const params = new URLSearchParams(searchParams);
+    params.set('page', '1'); // when user types a new query, rest page number to 1
     if (term) {
       params.set('query', term);
     } else {
@@ -19,7 +22,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     // Update the URL with the user's search data. For example, /dashboard/invoices?query=al if the user searches for "Al".
     // The URL is updated without reloading the page, thanks to Next.js's client-side navigation
     replace(`${pathname}?${params.toString()}`); /* update the URL */
-  }
+  }, 300);
 
   return (
     <div className="relative flex flex-1 flex-shrink-0">
