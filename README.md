@@ -4,7 +4,19 @@ Work in progress... https://al-nextjs-dashboard.vercel.app/dashboard
 
 <img src="./public/hero-desktop.png" alt="Acme full web application" style="max-width: 100%;"/>
 
-Next.js App Router Course. See the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Next.js App Router Course. See the [course curriculum](https://nextjs.org/learn) on the Next.js Website. Course covers the following topics:
+
+- CSS styling - style application with Tailwind and CSS modules
+- Optimizing fonts and images
+- Creating Layouts and Pages
+- Navigation Between Pages using Link component
+- Fetching Data
+- Static and Dynamic Rendering
+- Streaming: improve the app's loading experience with streaming and loading skeletons
+- Search and Pagination using Next.js APIs
+- Mutating data using React Server Actions and revalidating the cache
+- Handling errors gracefully with error.tsx and notFound
+- Implement server-side form validation and improve accessibility in forms
 
 ### Few things done to optimize data fetching in the application:
 
