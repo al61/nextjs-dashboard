@@ -1,8 +1,8 @@
 ## Acme dashboard full web application
 
-https://al-nextjs-dashboard.vercel.app/dashboard
-Email: user@nextmail.com
-Password: 123456
+[Acme dashboard appl] (https://al-nextjs-dashboard.vercel.app/dashboard)\
+Email: user@nextmail.com\
+Password: 123456\
 
 <img src="./public/hero-desktop.png" alt="Acme full web application" style="max-width: 100%;"/>
 
