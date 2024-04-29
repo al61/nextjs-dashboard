@@ -1,5 +1,8 @@
 Work in progress... https://al-nextjs-dashboard.vercel.app/dashboard
 
+Email: user@nextmail.com
+Password: 123456
+
 ## Acme dashboard full web application
 
 <img src="./public/hero-desktop.png" alt="Acme full web application" style="max-width: 100%;"/>
@@ -17,6 +20,7 @@ Next.js App Router Course. See the [course curriculum](https://nextjs.org/learn)
 - Mutating data using React Server Actions and revalidating the cache
 - Handling errors gracefully with error.tsx and notFound
 - Implement server-side form validation and improve accessibility in forms
+- Adding authentication using NextAuth.js
 
 ### Few things done to optimize data fetching in the application:
 
